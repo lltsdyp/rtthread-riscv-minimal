@@ -59,10 +59,8 @@ target remote 127.0.0.1:1234
 行。
 
 然后，确保vscode已经安装了相关的插件，在.vscode/tasks.json中，配置qemu运行任务：
-``` json-with-comment
+``` json
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -93,11 +91,8 @@ target remote 127.0.0.1:1234
 ```
 
 最后，在.vscode/launch.json中，配置gdb调试任务：
-``` json-with-comment
+``` json
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
